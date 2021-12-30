@@ -25,7 +25,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/star2lte/proprietary/vendor/lib64/libexynoscamera3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libexynoscamera3.so \
     vendor/samsung/star2lte/proprietary/vendor/lib64/libOpenCv.camera.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOpenCv.camera.samsung.so \
     vendor/samsung/star2lte/proprietary/vendor/lib64/hw/camera.exynos9810.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/camera.exynos9810.so
-    
 
 # Firmware
 PRODUCT_COPY_FILES += \
@@ -76,6 +75,11 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/star2lte/proprietary/vendor/firmware/setfile_3h1.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/setfile_3h1.bin \
     vendor/samsung/star2lte/proprietary/vendor/firmware/setfile_3m3.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/setfile_3m3.bin \
     vendor/samsung/star2lte/proprietary/vendor/firmware/vts.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vts.bin
+
+# Gatekeeper
+PRODUCT_COPY_FILES += \
+    vendor/samsung/star2lte/proprietary/vendor/lib/hw/gatekeeper.exynos9810.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gatekeeper.exynos9810.so \
+    vendor/samsung/star2lte/proprietary/vendor/lib64/hw/gatekeeper.exynos9810.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gatekeeper.exynos9810.so
 
 # GPU
 PRODUCT_COPY_FILES += \

@@ -79,7 +79,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/star2lte/proprietary/vendor/firmware/setfile_2l3.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/setfile_2l3.bin \
     vendor/samsung/star2lte/proprietary/vendor/firmware/setfile_3h1.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/setfile_3h1.bin \
     vendor/samsung/star2lte/proprietary/vendor/firmware/setfile_3m3.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/setfile_3m3.bin \
-    vendor/samsung/star2lte/proprietary/vendor/firmware/vts.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vts.bin
+    vendor/samsung/star2lte/proprietary/vendor/firmware/vts.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vts.bin  
 
 # Gatekeeper
 PRODUCT_COPY_FILES += \
@@ -89,7 +89,7 @@ PRODUCT_COPY_FILES += \
 # GPU
 PRODUCT_COPY_FILES += \
     vendor/samsung/star2lte/proprietary/vendor/etc/snap_gpu_kernel_32.bin:$(TARGET_COPY_OUT_VENDOR)/etc/snap_gpu_kernel_32.bin \
-    vendor/samsung/star2lte/proprietary/vendor/etc/snap_gpu_kernel_64.bin:$(TARGET_COPY_OUT_VENDOR)/etc/snap_gpu_kernel_64.bin \
+    vendor/samsung/star2lte/proprietary/vendor/etc/snap_gpu_kernel_64.bin:$(TARGET_COPY_OUT_VENDOR)/etc/snap_gpu_kernel_64.bin
 
 # HWC
 PRODUCT_COPY_FILES += \

@@ -18,6 +18,9 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/samsung/star2lte
 
 # Camera
+PRODUCT_PACKAGES += \
+    libSEF.quram
+
 PRODUCT_COPY_FILES += \
     vendor/samsung/star2lte/proprietary/vendor/lib/libexynoscamera3.so:$(TARGET_COPY_OUT_VENDOR)/lib/libexynoscamera3.so \
     vendor/samsung/star2lte/proprietary/vendor/lib/libOpenCv.camera.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOpenCv.camera.samsung.so \

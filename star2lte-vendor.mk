@@ -114,8 +114,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/star2lte/proprietary/vendor/lib64/libexynosutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libexynosutils.so \
     vendor/samsung/star2lte/proprietary/vendor/lib64/libexynosv4l2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libexynosv4l2.so \
     vendor/samsung/star2lte/proprietary/vendor/lib64/libflicker.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libflicker.so \
-    vendor/samsung/star2lte/proprietary/vendor/lib64/libhwc2on1adapter.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhwc2on1adapter.so \
-    vendor/samsung/star2lte/proprietary/vendor/lib64/libhwc2onfbadapter.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhwc2onfbadapter.so \
     vendor/samsung/star2lte/proprietary/vendor/lib64/hw/hwcomposer.exynos9810.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/hwcomposer.exynos9810.so
 
 # Keymaster and Keystore

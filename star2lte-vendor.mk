@@ -91,8 +91,7 @@ PRODUCT_COPY_FILES += \
 
 # GPU
 PRODUCT_COPY_FILES += \
-    vendor/samsung/star2lte/proprietary/vendor/etc/snap_gpu_kernel_32.bin:$(TARGET_COPY_OUT_VENDOR)/etc/snap_gpu_kernel_32.bin \
-    vendor/samsung/star2lte/proprietary/vendor/etc/snap_gpu_kernel_64.bin:$(TARGET_COPY_OUT_VENDOR)/etc/snap_gpu_kernel_64.bin
+    vendor/samsung/star2lte/proprietary/vendor/etc/snap_gpu_kernel_32.bin:$(TARGET_COPY_OUT_VENDOR)/etc/snap_gpu_kernel_32.bin
 
 # HWC
 PRODUCT_COPY_FILES += \
@@ -127,9 +126,7 @@ PRODUCT_COPY_FILES += \
 
 # MALI
 PRODUCT_COPY_FILES += \
-    vendor/samsung/star2lte/proprietary/vendor/bin/bcc_mali:$(TARGET_COPY_OUT_VENDOR)/bin/bcc_mali \
-    vendor/samsung/star2lte/proprietary/vendor/lib/egl/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libGLES_mali.so \
-    vendor/samsung/star2lte/proprietary/vendor/lib64/egl/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libGLES_mali.so
+    vendor/samsung/star2lte/proprietary/vendor/bin/bcc_mali:$(TARGET_COPY_OUT_VENDOR)/bin/bcc_mali
 
 # McClient
 PRODUCT_COPY_FILES += \

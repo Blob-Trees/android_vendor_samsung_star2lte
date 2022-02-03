@@ -98,23 +98,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/samsung/star2lte/proprietary/vendor/lib/libacryl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libacryl.so \
     vendor/samsung/star2lte/proprietary/vendor/lib/libacryl_plugin_slsi_hdr10.so:$(TARGET_COPY_OUT_VENDOR)/lib/libacryl_plugin_slsi_hdr10.so \
-    vendor/samsung/star2lte/proprietary/vendor/lib/libExynosHWCService.so:$(TARGET_COPY_OUT_VENDOR)/lib/libExynosHWCService.so \
-    vendor/samsung/star2lte/proprietary/vendor/lib/libexynosdisplay.so:$(TARGET_COPY_OUT_VENDOR)/lib/libexynosdisplay.so \
-    vendor/samsung/star2lte/proprietary/vendor/lib/libexynosgscaler.so:$(TARGET_COPY_OUT_VENDOR)/lib/libexynosgscaler.so \
-    vendor/samsung/star2lte/proprietary/vendor/lib/libexynosscaler.so:$(TARGET_COPY_OUT_VENDOR)/lib/libexynosscaler.so \
-    vendor/samsung/star2lte/proprietary/vendor/lib/libexynosutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libexynosutils.so \
-    vendor/samsung/star2lte/proprietary/vendor/lib/libexynosv4l2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libexynosv4l2.so \
-    vendor/samsung/star2lte/proprietary/vendor/lib/hw/hwcomposer.exynos9810.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/hwcomposer.exynos9810.so \
     vendor/samsung/star2lte/proprietary/vendor/lib64/libacryl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libacryl.so \
     vendor/samsung/star2lte/proprietary/vendor/lib64/libacryl_plugin_slsi_hdr10.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libacryl_plugin_slsi_hdr10.so \
     vendor/samsung/star2lte/proprietary/vendor/lib64/libExynosHWCService.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libExynosHWCService.so \
-    vendor/samsung/star2lte/proprietary/vendor/lib64/libexynosdisplay.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libexynosdisplay.so \
-    vendor/samsung/star2lte/proprietary/vendor/lib64/libexynosgscaler.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libexynosgscaler.so \
-    vendor/samsung/star2lte/proprietary/vendor/lib64/libexynosscaler.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libexynosscaler.so \
-    vendor/samsung/star2lte/proprietary/vendor/lib64/libexynosutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libexynosutils.so \
-    vendor/samsung/star2lte/proprietary/vendor/lib64/libexynosv4l2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libexynosv4l2.so \
-    vendor/samsung/star2lte/proprietary/vendor/lib64/libflicker.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libflicker.so \
-    vendor/samsung/star2lte/proprietary/vendor/lib64/hw/hwcomposer.exynos9810.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/hwcomposer.exynos9810.so
+    vendor/samsung/star2lte/proprietary/vendor/lib64/libflicker.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libflicker.so
 
 # Keymaster and Keystore
 PRODUCT_COPY_FILES += \
